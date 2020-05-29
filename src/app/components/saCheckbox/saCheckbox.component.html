@@ -1,0 +1,14 @@
+<span class="sa-checkbox">
+  <label class="checkbox-inline" [ngClass]="{ disabled: disabled }">
+    <input
+      class="checkbox"
+      type="checkbox"
+      [(ngModel)]="value"
+      [disabled]="disabled"
+    />
+    <ion-icon *ngIf="value" class="icon checked" name="checkbox"></ion-icon>
+    <ion-icon *ngIf="!value" class="icon" name="square-outline"></ion-icon>
+    <span class="label" [ngClass]="{ strong: labelStrong }" *ngIf="label">{{ label }}</span>
+    <ng-content select="[sa-checkbox-label]"></ng-content>
+  </label>
+</span>

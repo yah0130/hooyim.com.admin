@@ -1,0 +1,11 @@
+@import '~app/styles/init';
+
+.category-edit-form {
+  .category-description {
+    line-height: 1.8em;
+  }
+
+  .submit-btn {
+    margin-right: $gap;
+  }
+}

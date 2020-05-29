@@ -1,0 +1,81 @@
+<form name="articleSubmit" class="form-horizontal">
+  <div class="form-group row">
+    <label for="article-status" class="col-3 text-center form-control-label">来源</label>
+    <div class="col-6">
+      <select
+        class="form-control c-select"
+        id="article-origin"
+        name="article-origin"
+        [(ngModel)]="origin"
+        [disabled]="disabled"
+        (change)="originChange.emit(origin)"
+      >
+        <option [ngValue]="OriginState.Original">原创</option>
+        <option [ngValue]="OriginState.Reprint">转载</option>
+        <option [ngValue]="OriginState.Hybrid">混合</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="article-status" class="col-3 text-center form-control-label">状态</label>
+    <div class="col-6">
+      <select
+        class="form-control c-select"
+        id="article-status"
+        name="article-status"
+        [(ngModel)]="state"
+        [disabled]="disabled"
+        (change)="stateChange.emit(state)"
+      >
+        <option [ngValue]="PublishState.Published">直接发布</option>
+        <option [ngValue]="PublishState.Draft">存为草稿</option>
+        <option [ngValue]="PublishState.Recycle">已删除</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="article-public" class="col-3 text-center form-control-label">公开度</label>
+    <div class="col-6">
+      <select
+        class="form-control c-select"
+        id="article-public"
+        name="article-public"
+        [(ngModel)]="ppublic"
+        [disabled]="disabled"
+        (change)="ppublicChange.emit(ppublic)"
+      >
+        <option [ngValue]="PublicState.Public">公开</option>
+        <option [ngValue]="PublicState.Secret">私密</option>
+        <option [ngValue]="PublicState.Password">密码访问</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="article-password" class="col-3 text-center form-control-label">文章密码</label>
+    <div class="col-6">
+       <input
+        type="password"
+        class="form-control"
+        id="article-password"
+        name="article-password"
+        placeholder="文章密码"
+        [(ngModel)]="password"
+        [disabled]="ppublic !== PublicState.Password"
+        (change)="passwordChange.emit(password)"
+      />
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-12">
+      <button
+        class="btn btn-block btn-default btn-with-icon"
+        [disabled]="disabled"
+        (click)="submitArticle.emit()"
+      >
+        <ion-icon class="icon" name="checkmark-done"></ion-icon>
+        <span>{{ isEdit ? '修改' : '发布' }}文章</span>
+      </button>
+    </div>
+  </div>
+</form>

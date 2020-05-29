@@ -1,0 +1,73 @@
+<div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="row statistics">
+      <sa-card
+        *ngFor="let item of defaultStatistics" 
+        class="statistics-item-container col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-xs-12"
+      >
+        <div class="statistics-item">
+          <div class="description">
+            <h4>{{ item.description }}</h4>
+            <p class="description-stats">
+              {{ statistics[item.type] !== null ? statistics[item.type] : '-' }}
+            </p>
+          </div>
+          <ion-icon class="icon" [name]="item.icon"></ion-icon>
+        </div>
+      </sa-card>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <sa-card 
+    title="GA 今日统计"
+    baCardClass="ga-card with-scroll"
+    class="col-xlg-12 col-xl-12 col-lg-12 col-sm-12 col-xs-12"
+  >
+    <div class="ga-box">
+      <sa-loading-spider [show]="isLoadingGA"></sa-loading-spider>
+      <div class="toolbar">
+        <a
+          role="button"
+          class="btn btn-sm btn-success"
+          href="https://developers.google.com/analytics/devguides/reporting/embed/v1/"
+          target="_blank"
+        >Doc</a>
+        <a
+          role="button"
+          class="btn btn-sm btn-warning"
+          href="https://developers.google.com/analytics/devguides/reporting/embed/v1/core-methods-reference/"
+          target="_blank"
+        >API</a>
+        <a
+          role="button"
+          class="btn btn-sm btn-info"
+          href="https://ga-dev-tools.appspot.com/embed-api/"
+          target="_blank"
+        >Example</a>
+        <button
+          type="button"
+          class="btn btn-sm btn-default btn-icon"
+          [disabled]="isLoadingGA"
+          (click)="isShowSelectView = !isShowSelectView"
+        >
+          <ion-icon name="podium"></ion-icon>
+        </button>
+        <div
+          id="view-selector"
+          [class]="'selector ' + (isShowSelectView ? 'show' : 'hide')"
+        >
+        </div>
+      </div>
+      <hr>
+      <div class="pie-charts">
+        <div id="pie-country" class="chart country"></div>
+        <div id="pie-city" class="chart city"></div>
+        <div id="pie-browser" class="chart browser"></div>
+        <div id="pie-os" class="chart os"></div>
+      </div>
+      <hr>
+      <div id="timeline" class="timeline"></div>
+    </div>
+  </sa-card>
+</div>

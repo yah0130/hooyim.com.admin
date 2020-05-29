@@ -1,0 +1,30 @@
+@import '~app/styles/init';
+$size: 52px;
+
+.back-cover-top {
+  position: fixed;
+  display: none;
+  z-index: $z-index-main-backtop;
+  width: $size;
+  height: $size;
+  right: $size;
+  bottom: $size !important;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba($black-color, .75);
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity .1s;
+
+  .icon {
+    font-size: 1.5em;
+    margin-bottom: 2px;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,129 @@
+
+@import '~app/styles/init';
+
+.page-header {
+  position: fixed;
+  height: $header-height;
+  width: 100%;
+  min-width: $resMin;
+  padding: 0 $gap 0 0;
+  border-bottom: 3px solid $topbar-border;
+  z-index: $z-index-header;
+  background-color: $sidebar;
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .user-profile {
+    float: right;
+  
+    .al-user-profile {
+      float: right;
+      margin-right: 12px;
+      transition: all .15s ease-in-out;
+      padding: 0;
+      height: 45px;
+      border: 0;
+      opacity: 1;
+      position: relative;
+
+      a {
+        display: block;
+    
+        &.profile-toggle-link {
+          height: 45px;
+        }
+      }
+    
+      img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        margin-top: 8px;
+      }
+
+      .profile-dropdown {
+        left: auto !important;
+        right: -($gap / 2) !important;
+      }
+    }
+  }
+}
+
+a.al-logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: $header-height;
+  width: $sidebar-width;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: $topbar-text;
+  outline: none !important;
+  float: left;
+
+  .icon {
+    margin-right: 0.5rem;
+  }
+
+  &:hover {
+    .icon,
+    .text {
+      color: $primary;
+    }
+  }
+}
+
+@media (max-width: $resXS) {
+  a.al-logo {
+    width: auto;
+  }
+}
+
+// 左侧收缩按钮
+a.collapse-menu-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 40px;
+  height: $header-height;
+  padding: 0;
+  line-height: 43px;
+  color: $topbar-text;
+  text-align: center;
+  font-size: 31px;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: $warning;
+  }
+
+  .icon {
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: $resXS) {
+  .page-header {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: $resXXS) {
+  .user-profile {
+    min-width: 136px;
+  }
+  a.collapse-menu-link {
+    margin-left: 10px;
+  }
+}
+
+.profile-toggle-link {
+  cursor: pointer;
+}
+

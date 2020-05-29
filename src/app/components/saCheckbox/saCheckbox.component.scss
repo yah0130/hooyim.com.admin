@@ -1,0 +1,41 @@
+@import '~app/styles/init';
+
+.sa-checkbox {
+  .checkbox-inline {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+
+    &:hover {
+      .icon {
+        opacity: 1;
+      }
+    }
+
+    &.disabled {
+      cursor: no-drop;
+      opacity: .3;
+    }
+
+    .checkbox {
+      display: none;
+    }
+  
+    .icon {
+      opacity: .6;
+      font-size: 18px;
+      margin-right: 8px;
+  
+      &.checked {
+        opacity: 1;
+      }
+    }
+
+    .label {
+      &.strong {
+        font-weight: bold;
+      }
+    }
+  }
+}

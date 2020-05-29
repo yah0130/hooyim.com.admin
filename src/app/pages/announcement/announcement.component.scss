@@ -1,0 +1,71 @@
+@import '~app/styles/init';
+
+.announcement-form {
+  .announcement-content {
+    padding: 0;
+
+    > .markdown-editor {
+      > .editor-toolbar {
+        > .menus {
+          .quote,
+          .code,
+          .-h3,
+          .image,
+          .save {
+            display: none;
+          }
+        }
+        .fullscreen {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .submit-btn {
+    margin-right: $gap;
+  }
+}
+
+.announcement-search-form {
+  > .input-group {
+    > .form-control {
+      width: 16em;
+    }
+  }
+}
+
+.announcement-list {
+  position: relative;
+
+  .batch-checkbox {
+    text-align: left;
+    padding-left: 2em;
+  }
+
+  .announcement-err-msg {
+    margin: 1em 0;
+  }
+
+  tbody {
+    tr {
+      td {
+        line-height: 5em;
+
+        .content {
+          word-break: break-all;
+          line-height: 2.6;
+
+          p {
+            margin: 0;
+          }
+
+          img {
+            max-width: 4em;
+            margin: 0 1em;
+          }
+        }
+      }
+    }
+  }
+}

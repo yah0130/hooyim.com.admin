@@ -1,0 +1,17 @@
+@import '~app/styles/init';
+
+.category-list {
+  position: relative;
+
+  .category-item-checkbox {
+    margin: $gap 0;
+
+    &:nth-of-type(1) {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
