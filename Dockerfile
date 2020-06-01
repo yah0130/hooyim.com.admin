@@ -3,11 +3,12 @@ FROM node:12.0-slim AS builder
 WORKDIR /app
 
 # install and cache app dependencies
-COPY . .
+COPY package*.json ./
 
 # install dependencies and build the angular app
-RUN npm config set registry https://registry.npm.taobao.org
-RUN npm install
+RUN npm install --production --registry=https://registry.npm.taobao.org
+
+COPY . .
 RUN npm run build
 
 FROM nginx:stable-alpine
