@@ -9,7 +9,6 @@ COPY package*.json ./
 RUN npm install --production --registry=https://registry.npm.taobao.org
 
 COPY . .
-RUN npm run build
 
 FROM nginx:stable-alpine
 COPY default.conf /etc/nginx/conf.d/

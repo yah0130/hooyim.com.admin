@@ -33,10 +33,6 @@
     "npm": ">= 5"
   },
   "dependencies": {
-    "@angular/cli": "~9.0.2",
-    "@angular-devkit/build-angular": "~0.900.2",
-    "@angular/compiler-cli": "~9.0.1",
-    "@angular/language-service": "~9.0.1",
     "@angular/animations": "~9.0.1",
     "@angular/common": "~9.0.1",
     "@angular/compiler": "~9.0.1",
@@ -74,6 +70,10 @@
     "typescript": "~3.7.5"
   },
   "devDependencies": {
+    "@angular/cli": "~9.0.2",
+    "@angular-devkit/build-angular": "~0.900.2",
+    "@angular/compiler-cli": "~9.0.1",
+    "@angular/language-service": "~9.0.1",
     "@types/ali-oss": "^6.0.4",
     "@types/codemirror": "^0.0.85",
     "@types/gravatar": "^1.8.0",
