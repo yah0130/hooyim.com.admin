@@ -3,14 +3,14 @@
     <img src="https://angular.io/assets/images/logos/angular/angular.svg" height="90" alt="Angular Logo" />
   </a>
   <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-  <a href="https://github.com/yah0130/hooyim.com.admin" target="blank">
+  <a href="https://github.com/yah0130/hooyim.com.node" target="blank">
     <img src="https://raw.githubusercontent.com/yah0130/hooyim.com.admin/master/src/assets/images/profile/logo.png" height="90" alt="nodepress Logo" />
   </a>
 </p>
 
 # Hooyim.com Admin
 
-[![nodepress](https://img.shields.io/badge/NODE-PRESS-83BA2F?style=for-the-badge&labelColor=90C53F)](https://github.com/yah0130/hooyim.com.admin)
+[![nodepress](https://img.shields.io/badge/NODE-PRESS-83BA2F?style=for-the-badge&labelColor=90C53F)](https://github.com/yah0130/hooyim.com.node)
 [![GitHub stars](https://img.shields.io/github/stars/yah0130/hooyim.com.admin.svg?style=for-the-badge)](https://github.com/yah0130/hooyim.com.admin/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues-raw/yah0130/hooyim.com.admin.svg?style=for-the-badge)](https://github.com/yah0130/hooyim.com.admin/issues)
 [![GitHub license](https://img.shields.io/github/license/yah0130/hooyim.com.admin.svg?style=for-the-badge)](https://github.com/yah0130/hooyim.com.admin/blob/master/LICENSE)
