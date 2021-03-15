@@ -1,7 +1,7 @@
 /**
  * @file App constants/auth
  * @description app/constants/auto
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 export const TOKEN = 'id_token';

@@ -1,7 +1,7 @@
 /**
  * @file 页面公共扩展
  * @desc app/pages/utils
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as lodash from 'lodash';

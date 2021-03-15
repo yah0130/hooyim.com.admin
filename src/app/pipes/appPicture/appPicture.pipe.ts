@@ -1,7 +1,7 @@
 /**
  * @file 获取图片管道符
  * @desc app/pipes/app-picture
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Pipe, PipeTransform } from '@angular/core';

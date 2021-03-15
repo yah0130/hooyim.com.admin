@@ -1,7 +1,7 @@
 /**
  * @file 登陆页面组件
  * @desc app/page/auth/component
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as API_PATH from '@app/constants/api';

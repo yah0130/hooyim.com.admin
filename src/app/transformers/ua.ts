@@ -1,6 +1,6 @@
 /**
  * @file UA 解析器
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { UAParser } from 'ua-parser-js';

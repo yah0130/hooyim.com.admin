@@ -1,7 +1,7 @@
 /**
  * @file 字节超出隐藏管道符
  * @desc app/pipes/truncate
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Pipe, PipeTransform } from '@angular/core';

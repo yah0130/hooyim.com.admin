@@ -1,7 +1,7 @@
 /**
  * @file 卡片组件
  * @desc app/component/card
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, ViewEncapsulation, Input } from '@angular/core';

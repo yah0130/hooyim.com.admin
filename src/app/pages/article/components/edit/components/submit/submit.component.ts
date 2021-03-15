@@ -1,7 +1,7 @@
 /**
  * @file 文章编辑页面状态选择及发布组件
  * @desc app/page/article/component/submit
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, EventEmitter, Input, Output } from '@angular/core';

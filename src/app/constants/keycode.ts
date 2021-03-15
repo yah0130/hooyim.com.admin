@@ -1,7 +1,7 @@
 /**
  * @file App constants/keycode
  * @desc app/constants/keycode
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 export const ESC = 27; // 退出

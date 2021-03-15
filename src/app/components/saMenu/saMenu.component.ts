@@ -1,7 +1,7 @@
 /**
  * @file 菜单组件
  * @desc app/component/menu
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Subscription } from 'rxjs/Subscription';

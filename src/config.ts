@@ -1,6 +1,6 @@
 /**
  * @file 全局配置
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 export const APP_TITLE = 'Hooyim';

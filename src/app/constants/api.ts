@@ -1,6 +1,6 @@
 /**
  * @file App constants/api
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 export const AUTH = '/auth';

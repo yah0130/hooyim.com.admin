@@ -1,7 +1,7 @@
 /**
  * @file 局部记载组件
  * @desc app/component/loading-spider
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, ViewEncapsulation, Input } from '@angular/core';

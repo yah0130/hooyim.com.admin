@@ -1,7 +1,7 @@
 /**
  * @file 文章编辑页面扩展信息组件
  * @desc app/page/article/component/extend
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, EventEmitter, Input, Output } from '@angular/core';

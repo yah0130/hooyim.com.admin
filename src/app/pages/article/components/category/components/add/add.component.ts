@@ -1,7 +1,7 @@
 /**
  * @file 分类页面发布组件
  * @desc app/page/article/component/category/add
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, ViewEncapsulation, EventEmitter, Input, Output, OnChanges } from '@angular/core';

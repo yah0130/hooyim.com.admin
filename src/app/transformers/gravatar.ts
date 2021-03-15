@@ -1,6 +1,6 @@
 /**
  * @file Gravatar 地址获取器
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as gravatar from 'gravatar';

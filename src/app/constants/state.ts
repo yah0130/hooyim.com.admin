@@ -2,7 +2,7 @@
  * Bussniss constants.
  * @file 业务数据表常量接口
  * @desc constants/state
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 // 发布状态

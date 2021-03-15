@@ -1,7 +1,7 @@
 /**
  * @file 图片上传组件
  * @desc app/component/picture-uploader
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as OSS from 'ali-oss';

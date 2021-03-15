@@ -1,7 +1,7 @@
 /**
  * @file 文章编辑页面核心组件
  * @desc app/page/article/component/main
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as API_PATH from '@app/constants/api';

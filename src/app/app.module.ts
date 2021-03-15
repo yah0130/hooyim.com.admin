@@ -1,7 +1,7 @@
 /**
  * @file App module
  * @desc app.module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { RouterModule } from '@angular/router';

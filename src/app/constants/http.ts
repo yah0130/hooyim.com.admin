@@ -1,7 +1,7 @@
 /**
  * @file App constants/api
  * @description app/constants/api
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 export const HTTP_SUCCESS = 200; // 成功

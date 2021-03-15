@@ -1,7 +1,7 @@
 /**
  * @file 服务器管理页面模块
  * @desc app/page/linux/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { NgModule } from '@angular/core';

@@ -1,7 +1,7 @@
 /**
  * @file markdown 编辑器组件
  * @desc app/component/markdownn-editor
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import marked from 'marked';

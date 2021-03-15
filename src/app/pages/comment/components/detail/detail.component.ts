@@ -1,7 +1,7 @@
 /**
  * @file 评论详情页面组件
  * @desc app/page/comment/component/detail
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as lodash from 'lodash';

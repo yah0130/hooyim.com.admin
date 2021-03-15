@@ -1,7 +1,7 @@
 /**
  * @file 评论公共扩展
  * @desc app/comment/utils
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { IDataExtends, IResponsePaginationData } from '@app/pages/pages.interface';

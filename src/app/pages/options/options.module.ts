@@ -1,7 +1,7 @@
 /**
  * @file 全局设置页面模块
  * @desc app/page/options/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';

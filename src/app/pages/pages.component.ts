@@ -1,7 +1,7 @@
 /**
  * @file 页面组件
  * @desc app/componnents-page
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { BLOG_SITE } from '@/config';

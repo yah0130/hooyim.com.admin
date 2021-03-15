@@ -14,7 +14,7 @@ FROM nginx:stable-alpine
 COPY default.conf /etc/nginx/conf.d/
 
 # copy from dist to nginx root dir
-COPY --from=builder /app/dist/angular-admin /usr/share/nginx/html
+COPY --from=builder /app/dist/hooyim.com.admin /usr/share/nginx/html
 
 # expose port 80
 EXPOSE 80

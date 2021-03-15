@@ -1,7 +1,7 @@
 /**
  * @file UI Example 页面
  * @desc app/page/example/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';

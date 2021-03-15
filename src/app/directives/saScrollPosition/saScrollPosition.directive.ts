@@ -1,7 +1,7 @@
 /**
  * @file 监听 Dom 滚动指令
  * @desc app/directives/scroll-position
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Directive, Input, Output, EventEmitter, HostListener, OnInit } from '@angular/core';

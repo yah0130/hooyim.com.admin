@@ -1,7 +1,7 @@
 /**
  * @file App 顶级入口组件
  * @desc app.component
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as API_PATH from '@app/constants/api';

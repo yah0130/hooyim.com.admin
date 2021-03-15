@@ -1,7 +1,7 @@
 /**
  * @file 顶部条
  * @desc app/component/page-header
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Router } from '@angular/router';

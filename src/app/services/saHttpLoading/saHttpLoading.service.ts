@@ -1,7 +1,7 @@
 /**
  * @file Http loading service
  * @desc app/http-loading
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Injectable } from '@angular/core';

@@ -1,7 +1,7 @@
 /**
  * @file 公告管理页面组件
  * @desc app/page/annoucement/component
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import marked from 'marked';

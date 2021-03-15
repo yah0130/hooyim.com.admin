@@ -1,6 +1,6 @@
 /**
  * @file 开发环境配置
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { DEVELOP_API } from '@/config';

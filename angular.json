@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-admin": {
+    "hooyim.com.admin": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-admin",
+            "outputPath": "dist/hooyim.com.admin",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,18 +72,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-admin:build"
+            "browserTarget": "hooyim.com.admin:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-admin:build:production"
+              "browserTarget": "hooyim.com.admin:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-admin:build"
+            "browserTarget": "hooyim.com.admin:build"
           }
         },
         "test": {
@@ -121,15 +121,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-admin:serve"
+            "devServerTarget": "hooyim.com.admin:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-admin:serve:production"
+              "devServerTarget": "hooyim.com.admin:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "angular-admin"
+  "defaultProject": "hooyim.com.admin"
 }

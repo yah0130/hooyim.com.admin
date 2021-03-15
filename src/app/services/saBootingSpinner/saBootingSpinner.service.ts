@@ -1,7 +1,7 @@
 /**
  * @file 首屏启动器服务
  * @desc app/services/spinner
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Injectable } from '@angular/core';

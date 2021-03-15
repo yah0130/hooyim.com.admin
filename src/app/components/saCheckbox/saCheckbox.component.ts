@@ -1,7 +1,7 @@
 /**
  * @file 复选框组件
  * @desc app/component/checkbox
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { ControlValueAccessor } from '@angular/forms';

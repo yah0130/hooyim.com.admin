@@ -1,7 +1,7 @@
 /**
  * @file 文章管理页面路由
  * @desc app/page/article/routes
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Routes, RouterModule } from '@angular/router';

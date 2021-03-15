@@ -1,7 +1,7 @@
 /**
  * @file 主程序入口文件
  * @desc main
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { enableProdMode } from '@angular/core';

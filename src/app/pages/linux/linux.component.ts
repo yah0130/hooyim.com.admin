@@ -1,7 +1,7 @@
 /**
  * @file 服务器管理页面组件
  * @desc app/page/linux/component
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, ViewEncapsulation } from '@angular/core';

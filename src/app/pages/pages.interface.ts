@@ -1,7 +1,7 @@
 /**
  * @file 页面数据的业务类型常量
  * @desc app/pages/constants
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 export type TApiPath = string;

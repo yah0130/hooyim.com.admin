@@ -1,7 +1,7 @@
 /**
  * @file 密码对比验证器
  * @desc app/validators/EqualPasswords
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { FormGroup } from '@angular/forms';

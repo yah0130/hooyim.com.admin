@@ -1,7 +1,7 @@
 /**
  * @file 图片加载服务
  * @desc app/services/image-loader
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Injectable } from '@angular/core';

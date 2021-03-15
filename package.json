@@ -1,5 +1,5 @@
 {
-  "name": "angular-admin",
+  "name": "hooyim.com.admin",
   "version": "1.0.0",
   "author": {
     "name": "Hooyim",
@@ -7,26 +7,26 @@
     "url": "https://www.hooyim.com"
   },
   "private": false,
-  "homepage": "https://github.com/yah0130/angular-admin",
+  "homepage": "https://github.com/yah0130/hooyim.com.admin.git",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "dev": "ng serve --proxy-config proxy.conf.json",
-    "build": "ng build --prod --configuration production && gzip-all \"dist/angular-admin/*.*\"",
+    "build": "ng build --prod --configuration production && gzip-all \"dist/hooyim.com.admin/*.*\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "tar": "rm -rf ./product/dist.tar.gz && tar -zcvf ./product/dist.tar.gz -C ./dist/angular-admin .",
+    "tar": "rm -rf ./product/dist.tar.gz && tar -zcvf ./product/dist.tar.gz -C ./dist/hooyim.com.admin .",
     "build:tar": "npm run build && npm run tar",
     "deploy": "npm ci && npm run build:tar && sh .deploy/decompression.sh",
-    "server": "http-server ./dist/angular-admin"
+    "server": "http-server ./dist/hooyim.com.admin"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yah0130/angular-admin.git"
+    "url": "https://github.com/yah0130/hooyim.com.admin.git"
   },
   "bugs": {
-    "url": "https://github.com/yah0130/angular-admin/issues"
+    "url": "https://github.com/yah0130/hooyim.com.admin/issues"
   },
   "engines": {
     "node": ">= 8.0.0",

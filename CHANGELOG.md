@@ -15,7 +15,7 @@
 ## CHANGELOG
 
 ### v3.3.0
-- Support AOT [PR#39](https://github.com/surmon-china/angular-admin/pull/39) [issue#28](https://github.com/surmon-china/angular-admin/issues/28)
+- Support AOT [PR#39](https://github.com/yah0130/hooyim.com.admin/pull/39) [issue#28](https://github.com/yah0130/hooyim.com.admin/issues/28)
 - Add token renewal service
 - Add http loading service
 - Upgrade sitemap API to syndication API

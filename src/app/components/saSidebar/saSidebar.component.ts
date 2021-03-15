@@ -1,7 +1,7 @@
 /**
  * @file 侧边栏菜单组件
  * @desc app/component/sidebar
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, ElementRef, HostListener, ViewEncapsulation, OnInit, AfterViewInit } from '@angular/core';

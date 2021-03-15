@@ -1,7 +1,7 @@
 /**
  * @file 内容区顶部标题
  * @desc app/component/content-header
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component } from '@angular/core';

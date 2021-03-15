@@ -1,7 +1,7 @@
 /**
  * @file 登陆页面模块
  * @desc app/page/auth/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';

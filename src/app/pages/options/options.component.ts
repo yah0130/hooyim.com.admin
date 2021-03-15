@@ -1,7 +1,7 @@
 /**
  * @file 全局设置页面组件
  * @desc app/page/options/component
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as lodash from 'lodash';

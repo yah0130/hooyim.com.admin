@@ -1,7 +1,7 @@
 /**
  * @file 返回顶部组件
  * @desc app/component/back-top
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Component, AfterViewInit, HostListener, Input } from '@angular/core';

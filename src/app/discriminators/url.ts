@@ -1,6 +1,6 @@
 /**
  * @file App discriminators url 目标判定器
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 // 路径参数

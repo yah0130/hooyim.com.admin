@@ -1,7 +1,7 @@
 /**
  * @file 标签列表页面组件
  * @desc app/page/article/component/tag
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import * as lodash from 'lodash';

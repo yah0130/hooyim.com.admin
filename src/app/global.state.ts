@@ -1,7 +1,7 @@
 /**
  * @file App 全局状态
  * @desc global.state
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { Injectable } from '@angular/core';

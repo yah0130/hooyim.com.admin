@@ -1,7 +1,7 @@
 /**
  * @file 邮件验证器
  * @desc app/validators/email
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yah0130>
  */
 
 import { AbstractControl } from '@angular/forms';
